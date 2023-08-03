@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #424558;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+nav > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+nav> ul::after{
+    font-size: 20px;
+    content: "#";
+    display: block;
+}
+nav ul li{
+    position: relative;
+    list-style: none;
+    margin: 5px ;
+    padding: 5px;
+}
+.sous{
+    display: none;
+    margin-bottom: 0px;
+    padding: 5px;
+}
+.sous li:hover{
+    background-color: rgb(224, 232, 229);
+}
