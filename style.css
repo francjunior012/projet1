@@ -197,16 +197,172 @@ button:hover{
 
 }
 .contenue5{
+    margin-top: 40px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-.car3 p{
-
-    text-align:left;
 }
 .car3{
     margin: 10px;
     height: 200px;
     width: 300px;
+}
+.car3 h2{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: rgb(112, 185, 168);
+    text-align:left;
+    padding: 20px;
+    padding-left: 30px;
+    color: aquamarine;
+
+}
+.section3{
+    height: 500px;
+    background-color: rgba(127, 255, 212, 0.09);
+}
+.section3 h3{
+    text-align: center;
+    font-size: 25px;
+}
+.car3 p{
+    text-align: left;
+}
+.section3 p{
+    letter-spacing: 0.5;
+    text-align:center;
+    font-size: 15px;
+}
+.section4{
+    display: block;
+    margin: 90px;
+    margin-left: 800px;
+}
+.section4 h2{
+    font-size:30px;
+    padding: 20px;
+}
+.section4 li{
+    list-style: none;
+}
+.section4 p{
+    text-align: left;
+    font-size: 15px;
+}
+.sec5{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;align-items: center;
+}
+.sec5 p{
+    margin: 50px;
+    width: 400px;
+    font-size: 20px;
+    letter-spacing: 0.7;
+ text-align:left;
+
+}
+.sec5 span{
+    font-size: 20px;
+    margin: 50px;
+    text-align: justify;
+    opacity: 0.6;
+}
+.cercle{
+    color: white;
+}
+.cercle div{
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    background-color: blue;
+    margin: 20px;
+padding: 20px;
+}
+.cercle div:hover{
+    background-color: rgba(0, 0, 255, 0.311);
+}
+.sec6{
+  
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sec6 img{
+    font-size: 50px;
+    margin-top: 100px;
+}
+.section5{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #444;
+    height: 400px;
+}
+.section5 div{
+    width: 600px;
+    margin-top: 50px;
+    
+}
+.section5 div h1{
+    text-align: left;
+    font-size: 40px;
+    margin-left: 100px;
+    
+}
+.section5 div a{
+    border: 2px solid aqua;
+    background-color: aqua;
+    padding: 20px;
+    margin-left: 200px;
+    border-radius: 10px;
+}
+.section5 div a:hover{
+    background-color: rgba(0, 255, 255, 0);
+}
+.section6{
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px;
+   
+}
+.section6 div{
+    width: 400px;
+   
+}
+.section6 div div{
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+   
+}
+.section6 img{
+    margin: 30px;
+}
+
+.section6 h2{
+
+    margin-bottom: 40px;
+}
+.section6 div a{
+    color: black;
+}
+.section6 input{
+    padding: 20px;
+}
+footer{
+    padding: 30px;
+    text-align: center;
+}
+footer strong{
+    
+    color: blue;
 }
