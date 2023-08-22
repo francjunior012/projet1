@@ -24,19 +24,22 @@ a {
 }
 
 .content a {
-    /* background-color: black; */
     color: rgb(6, 6, 6);
     padding: 10px;
     margin: 4px;
-    /* font-size: 20px; */
 }
 
 .pst {
     background-color: transparent;
     border: none;
     color: rgb(252, 249, 249);
-    font-size: 20px;
-    height: 120px;
+    font-size: 15px;
+    height: 90px;
+
+}
+
+.pst:hover {
+    color: aqua;
 }
 
 .drop:hover .content {
@@ -48,7 +51,7 @@ a {
     padding: 10px;
     color: rgb(3, 3, 3);
     position: absolute;
-    top: 140px;
+    top: 90px;
 }
 
 header {
@@ -56,20 +59,24 @@ header {
     position: fixed;
     z-index: 3;
     width: 100vw;
-    height: 150px;
-    background-color: rgba(110, 162, 217, 0.695);
+    height: 100px;
+    background-color: rgba(2, 43, 86, 0.83);
 }
 
 header nav ul {
-    margin-top: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    margin-left: 70px;
     align-items: center;
 }
 
+header nav ul li a:hover {
+    color: aqua;
+}
+
 header nav ul img {
-    margin-right: 150px;
+    color: white;
+    margin-right: 200px;
 }
 
 header nav ul li {
@@ -82,7 +89,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    font-size: 20px;
+    font-size: 15px;
     color: rgb(255, 253, 253);
 }
 
@@ -94,18 +101,16 @@ header nav ul li a {
 .bt {
     opacity: 0.9;
     margin-left: 20px;
-    margin-top: 10px;
     padding: 20px;
     border-radius: 10px;
     color: white;
     border: 3px solid aqua;
     background-color: rgba(19, 246, 246, 0);
     margin-left: 30px;
-    transition: all 1s ease-in;
+    transition: all 1s ease-in-out;
 }
 
 .bt:hover {
-    font-size: 20px;
     background-color: aqua;
 }
 
@@ -114,13 +119,13 @@ header nav ul li a {
 }
 
 .section1 {
-    margin-top: 150px;
-    height: 700px;
+    height: 900px;
     background: url(./image/banner.png.webp) center center /cover;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    /* z-index: 2px ; */
 }
 
 .contenue1 {
@@ -233,16 +238,16 @@ header nav ul li a {
     text-align: center;
     background-color: white;
     height: 500px;
-    width: 400px;
+    width: 450px;
     margin-bottom: 80px;
-    margin-top: 90px;
-    margin-left: 100px;
+    margin-top: 150px;
     padding-top: 50px;
 }
 
 .carre2 select {
+    opacity: 0.4;
     height: 60px;
-    width: 330px;
+    width: 335px;
     padding: 20px;
     margin: 10px;
 }
@@ -251,7 +256,7 @@ header nav ul li a {
     border-radius: 10px;
     padding: 20px;
     margin-top: 50px;
-    width: 350px;
+    width: 280px;
 
     background-color: aqua;
     transition: all 1s ease-in;
@@ -295,14 +300,13 @@ header nav ul li a {
 }
 
 .separateur {
-    border-radius: 50px;
+    border-radius: 20%;
     margin-top: 100px;
-    width: 180px;
+    width: 70px;
     height: 3px;
-    margin-left: 650px;
+    margin-left: 750px;
     background-color: aqua;
-    margin-bottom: 80px;
-    background-color: black;
+    margin-bottom: 10px;
     animation-name: qq;
     animation-duration: 6s;
     animation-delay: 1s;
@@ -310,7 +314,6 @@ header nav ul li a {
 }
 
 .text {
-    margin: 80px;
     text-align: center;
 }
 
@@ -633,6 +636,12 @@ header nav ul li a {
     justify-content: center;
 }
 
+.card {
+    font-size: 17px;
+    text-align: center;
+}
+
+
 .car3 {
     margin: 10px;
     height: 200px;
@@ -674,7 +683,7 @@ header nav ul li a {
 
 .car3 div h2 {
     margin: 25px;
-    color: rgb(248, 8, 8);
+    color: rgb(8, 248, 244);
 
 
 
@@ -683,6 +692,7 @@ header nav ul li a {
 .car3 div b {
     text-align: left;
     margin-bottom: 50px;
+    font-size: 25px;
 }
 
 .car3 div {
@@ -690,10 +700,10 @@ header nav ul li a {
     width: 320px;
 }
 
-.section3 div p {
+.car3 div p {
     letter-spacing: 0.5;
-    text-align: center;
-    font-size: 15px;
+    text-align: left;
+    font-size: 18px;
     animation-name: qq;
     animation-duration: 6s;
     animation-delay: 1s;
@@ -768,7 +778,6 @@ header nav ul li a {
     padding: 20px;
     border-radius: 100%;
     font-size: 25px;
-    color: blue;
 }
 
 .cercle span:hover {
@@ -843,7 +852,6 @@ header nav ul li a {
 }
 
 .s6:nth-child(1) {
-    background-color: yellow;
     animation: pht1 38s ease-in-out infinite;
 }
 
@@ -854,7 +862,6 @@ header nav ul li a {
 
     20% {
         transform: translateX(0);
-        background-color: black;
     }
 
     21% {
@@ -868,7 +875,6 @@ header nav ul li a {
 }
 
 .s6:nth-child(2) {
-    background-color: rgb(0, 238, 255);
     animation: pht2 38s ease-in-out infinite;
 }
 
@@ -900,7 +906,6 @@ header nav ul li a {
 }
 
 .s6:nth-child(3) {
-    background-color: rgb(4, 255, 0);
     animation: pht3 38s ease-in-out infinite;
 }
 
@@ -940,7 +945,6 @@ header nav ul li a {
 }
 
 .s6:nth-child(4) {
-    background-color: rgb(111, 0, 255);
     animation: pht4 38s ease-in-out infinite;
 }
 
@@ -990,7 +994,6 @@ header nav ul li a {
 }
 
 .s6:nth-child(5) {
-    background-color: rgb(8, 8, 8);
     animation: pht5 38s ease-in-out infinite;
 }
 
@@ -1070,7 +1073,7 @@ header nav ul li a {
     font-size: 40px;
     margin-left: 100px;
     width: 700px;
-    color: rgb(9, 9, 9);
+    color: rgb(133, 127, 127);
     animation-name: lol;
     animation-duration: 3s;
 
@@ -1098,7 +1101,9 @@ header nav ul li a {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 50px;
+    margin-left: 300px;
+    margin-right: 300PX;
+    margin-top: 200px;
     opacity: 0.7;
 
 }
@@ -1129,20 +1134,25 @@ header nav ul li a {
 }
 
 .section6 div {
-    width: 400px;
+    width: 420px;
 
 }
 
-.section6 div div {
+.sat {
+    margin-right: 200px;
+}
+
+.sat p {
     width: 200px;
-    margin: 20px;
+    line-height: 2rem;
+}
+
+.section6 div div {
+    width: 180px;
     padding: 10px;
 
 }
 
-.section6 img {
-    margin: 30px;
-}
 
 .section6 h2 {
 
@@ -1156,6 +1166,8 @@ header nav ul li a {
 .section6 input {
     padding: 20px;
 }
+
+
 
 footer {
     padding: 30px;
@@ -1179,14 +1191,16 @@ footer strong {
 /* deuxieme page */
 .about {
 
-    background-color: rgb(44, 75, 108);
-    height: 500px;
+    background: url(./image/banner.png.webp)center;
+    height: 400px;
 }
 
 .about h4 {
     padding-top: 200px;
     margin: 50px;
-    font-size: 35px;
+    font-size: 70px;
+    margin-left: 150px;
+    color: white;
 }
 
 /* troixieme pages */
